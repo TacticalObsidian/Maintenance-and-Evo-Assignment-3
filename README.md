@@ -19,13 +19,13 @@ When making refactoring, please make sure your code did not change the behaviour
 - Showman
 
 **2. Verify if the system can allow for a new name to be added and that it will return a sorted list:**
-- Leo
+- Zar 
 - Zong
 - Jonas
 
 ***Expected Results***
 - Jonas
-- Leo
+- Zar
 - Zong
 
 ## Search - Success
