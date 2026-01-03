@@ -13,7 +13,7 @@ When making refactoring, please make sure your code did not change the behaviour
 - Geostorm
 - Apex
 
-***1. Expected Results***
+***Expected Results***
 - Apex
 - Geostorm
 - Showman
@@ -23,7 +23,7 @@ When making refactoring, please make sure your code did not change the behaviour
 - Zong
 - Jonas
 
-***2. Expected Results***
+***Expected Results***
 - Jonas
 - Leo
 - Zong
@@ -32,40 +32,40 @@ When making refactoring, please make sure your code did not change the behaviour
 **1. Verify if can find a title:**
 - Geostorm
 
-***1. Expected Results***
+***Expected Results***
 - "The movie title is found"
 
 **2. Verify if can find a member:**
 - Jonas
 
-***2. Expected Results***
+***Expected Results***
 - "The member is found"
 
 ## Search - Fail
 **1. Verify if can find a title:**
 - Star
 
-***1. Expected Results***
+***Expected Results***
 - "The movie title is not found"
 
 **2. Verify if can find a member:**
 - Owen
 
-***2. Expected Results***
+***Expected Results***
 - "The member is not found"
 
 ## Blank or Single Value handling
 **1. Verify if the system can allow for a blank entry for titles and member names and not fail:**
 - Literally enter a blank value for both
 
-***1. Expected Results***
+***Expected Results***
 - No lists returned, but the system should not fail
 - Should result in "not found" always
 
 **2. Verify if the system can allow for one entry for titles and member names and not fail:**
 - Literally one value for both
 
-***2. Expected Results***
+***Expected Results***
 - Two lists returned and the system should not fail
 - Searches should return either $item found (if entered valid entry) or $item not found (if invalid)
 
