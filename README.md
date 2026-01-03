@@ -70,10 +70,5 @@ When making refactoring, please make sure your code did not change the behaviour
 - Searches should return either $item found (if entered valid entry) or $item not found (if invalid)
 
 
-**Expected Results**
-- Two lists returned and the system should not fail
-
-
-
 
 
